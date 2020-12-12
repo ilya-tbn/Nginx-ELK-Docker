@@ -14,7 +14,7 @@ This project has 2 folders:
 Installation Instructions:
 - Copy your website content to /Docker/nginx/website
 - Install:
-  - There are three ways to install everything:
+  - There are currently two ways to install everything:
     1. Manually copy the Docker folder to a preinstalled Linux server of your choosing, and execute "install.sh" with root privileges.
 
     2. Use the provided Terraform files.
