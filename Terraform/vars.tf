@@ -13,7 +13,6 @@ variable "AMI" {
   }
 }
 variable "instanceType" {
-  #default = "t2.micro"
   default = "t3a.medium"
 }
 
