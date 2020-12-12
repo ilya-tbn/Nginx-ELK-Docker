@@ -1,6 +1,6 @@
-Readme.md
-
 POC - Dockerized Nginx and ELK stack.
+
+
 
 Tested using CentOS 8.3 as the Docker host.
 
