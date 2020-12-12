@@ -54,19 +54,19 @@ resource "aws_security_group" "docker-sg" {
         from_port = 22
         to_port = 22
         protocol = "tcp"
-        cidr_blocks = ["176.231.67.227/32"]
+        cidr_blocks = ["YOUR_IP_ADDRESS_HERE/32"]
     }
     ingress {
         from_port = 80
         to_port = 80
         protocol = "tcp"
-        cidr_blocks = ["176.231.67.227/32"]
+        cidr_blocks = ["YOUR_IP_ADDRESS_HERE/32"]
     }
     ingress {
         from_port = 5601
         to_port = 5601
         protocol = "tcp"
-        cidr_blocks = ["176.231.67.227/32"]
+        cidr_blocks = ["YOUR_IP_ADDRESS_HERE/32"]
     }
     tags = {
         Name = "NGINX-SSH-KIBANA"
