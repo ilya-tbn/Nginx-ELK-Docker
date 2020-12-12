@@ -5,6 +5,7 @@ POC - Dockerized Nginx and ELK stack.
 Tested using CentOS 8.3 as the Docker host.
 
 This project has 2 folders:
+
 1.Terraform. Everything you need to automatically install this project on AWS. I used v0.13.5 to run this.
 
 2.Docker. Container configuration files for all the docker images.
